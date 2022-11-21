@@ -1,4 +1,4 @@
-﻿void =FillArray(int[]collection);
+﻿void FillArray(int[]collection);
 {
     int length = collection.length;
     int index = 0;
