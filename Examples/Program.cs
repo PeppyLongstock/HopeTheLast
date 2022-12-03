@@ -1,6 +1,10 @@
-﻿void DrawText(starting text, int left, int top)
+﻿using System.Link;
+
+string text = "(1,2) (2,3) (4,5) (6,7)";
+
+var data = text.Split(" ");
+
+for (int i = 0; i < data.length; i++)
 {
-    Console.SetCursorPosition(left, top);
-    Console.WriteLine(text);
+    Console.WriteLine(data[i]);
 }
-DrawText ("Intensive C# Demo text”, 629, 360);
